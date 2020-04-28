@@ -10,13 +10,13 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableEurekaClient
 @SpringBootApplication
 @RestController
-public class SpgCloudFundamentalsServiceApplication {
+public class ServiceApplication {
 
 	@Value("${service.instance.name}")
 	private String instance;
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpgCloudFundamentalsServiceApplication.class, args);
+		SpringApplication.run(ServiceApplication.class, args);
 	}
 
 	@RequestMapping("/")

@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.pluralsight</groupId>
-	<artifactId>spg-cloud-fundamentals-discovery-server</artifactId>
+	<artifactId>discovery-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spg-cloud-fundamentals-discovery-server</name>
+	<name>discovery-server</name>
 	<description>Discovery Server from Spring Cloud Fundamentals course</description>
 
 	<properties>
