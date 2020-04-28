@@ -9,7 +9,7 @@
 		3. Service (X instances)
 		4. Client
 
-## About projects
+## About repository projects
 
 ### Dicovery-Server: 
 
@@ -18,21 +18,24 @@
 ### Config-Server: 
 
 	http://localhost:8888/config-client-app/default
+	http://localhost:8888/config-client-app.properties
 
-	### Service: 
-
-	Add the following properties when starting Services instances
-	
-	`-Dservice.instance.name=instance1 -Dserver.port=10001`
-	
 ### Service: 
 
 	Add the following properties when starting Services instances
 	
 	`-Dservice.instance.name=instance1 -Dserver.port=10001`
+	`-Dservice.instance.name=instance2 -Dserver.port=10002`
+	...
 	
 ### Client: 
 
 	Client app will display wich Service instance it is accessing
 	
-	http://localhost:8080
+	http://localhost:9090
+	
+### Config-Client-App: 
+
+	Client app will display the configurations [from GitHub repository](https://github.com/tghcastro/scf-config-repository)
+	
+	http://localhost:10003/
