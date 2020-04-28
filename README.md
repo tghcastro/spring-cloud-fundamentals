@@ -17,6 +17,8 @@
 
 ### Config-Server: 
 
+	[GitHub configuration repository](https://github.com/tghcastro/scf-config-repository)
+
 	http://localhost:8888/config-client-app/default
 	http://localhost:8888/config-client-app.properties
 
