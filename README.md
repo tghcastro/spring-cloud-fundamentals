@@ -8,6 +8,7 @@
 		2. Config Server
 		3. Service (X instances)
 		4. Client
+		5. Config-Client-App
 
 ## About repository projects
 
@@ -17,7 +18,7 @@
 
 ### Config-Server: 
 
-	[GitHub configuration repository](https://github.com/tghcastro/scf-config-repository)
+[GitHub configuration repository](https://github.com/tghcastro/scf-config-repository)
 
 	http://localhost:8888/config-client-app/default
 	http://localhost:8888/config-client-app.properties
@@ -38,6 +39,6 @@
 	
 ### Config-Client-App: 
 
-	Client app will display the configurations [from GitHub repository](https://github.com/tghcastro/scf-config-repository)
+	Client app will display the configurations from the Config-Server
 	
 	http://localhost:10003/
