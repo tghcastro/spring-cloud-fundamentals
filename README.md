@@ -18,10 +18,11 @@
 
 ### Config-Server: 
 
-[GitHub configuration repository](https://github.com/tghcastro/scf-config-repository)
+	GitHub configuration repository: https://github.com/tghcastro/scf-config-repository
 
 	http://localhost:8888/config-client-app/default
 	http://localhost:8888/config-client-app.properties
+
 
 ### Service: 
 
@@ -39,6 +40,5 @@
 	
 ### Config-Client-App: 
 
-	Client app will display the configurations from the Config-Server
-	
-	http://localhost:10003/
+	http://localhost:10003/ (Client app will display the configurations from the Config-Server)
+	http://localhost:10003/actuator/refresh
