@@ -23,6 +23,14 @@
 	http://localhost:8888/config-client-app/default
 	http://localhost:8888/config-client-app.properties
 
+### Gateway-Server: 
+
+	GitHub configuration repository: https://github.com/tghcastro/scf-config-repository
+
+	http://localhost:8888/config-client-app/default
+	http://localhost:8888/config-client-app.properties
+
+
 
 ### Service: 
 
@@ -42,3 +50,22 @@
 
 	http://localhost:10003/ (Client app will display the configurations from the Config-Server)
 	http://localhost:10003/actuator/refresh
+	
+### HelloService and GoodbyeService
+
+	Add the following properties when starting Services instances
+	
+	Hello: 
+	
+	`-Dapplication.instance.name=instance1 -Dserver.port=1111`
+	`-Dapplication.instance.name=instance2 -Dserver.port=1112`
+	
+	Goodbye: 
+	
+	`-Dapplication.instance.name=instance1 -Dserver.port=2222`
+	`-Dapplication.instance.name=instance2 -Dserver.port=2223`
+	
+	http://localhost:10004/hello (alterenates between instance1 and 2)
+	http://localhost:10004/goodbye (alterenates between instance1 and 2)
+	
+
